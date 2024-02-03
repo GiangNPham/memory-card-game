@@ -1,13 +1,14 @@
 import { useState } from "react";
 import "./App.css";
-import Header from "./Components/Header";
-import PlayingBoard from "./Components/PlayingBoard";
+import Header from "./components/Header";
+import PlayingBoard from "./components/PlayingBoard";
 
 function App() {
   const [highScore, setHighScore] = useState(0);
   const [curScore, setCurScore] = useState(0);
+  const [isPlaying, setIsPlaying] = useState(false);
   return (
-    <div className="app">
+    <div className="bg-background min-h-screen">
       <Header
         highScore={highScore}
         setHighScore={setHighScore}
@@ -19,6 +20,8 @@ function App() {
         setHighScore={setHighScore}
         curScore={curScore}
         setCurScore={setCurScore}
+        isPlaying={isPlaying}
+        setIsPlaying={setIsPlaying}
       />
     </div>
   );
