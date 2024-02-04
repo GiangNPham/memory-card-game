@@ -76,9 +76,7 @@ export default function PlayingBoard({
           setHighScore={setHighScore}
           curScore={curScore}
           setCurScore={setCurScore}
-          setIsPlaying={setIsPlaying}
           numberCard={numberCard}
-          setNumberCard={setNumberCard}
           handleLoosing={handleLoosing}
           handleWinning={handleWinning}
         />

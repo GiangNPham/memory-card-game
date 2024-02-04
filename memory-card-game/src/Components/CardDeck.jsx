@@ -7,9 +7,7 @@ export default function CardDeck({
   setHighScore,
   curScore,
   setCurScore,
-  setIsPlaying,
   numberCard,
-  setNumberCard,
   handleLoosing,
   handleWinning,
 }) {

@@ -1,9 +1,4 @@
-export default function Header({
-  highScore,
-  setHighScore,
-  curScore,
-  setCurScore,
-}) {
+export default function Header({ highScore, curScore }) {
   return (
     <div className="text-text grid grid-cols-2 mx-20 pt-6">
       <div>
